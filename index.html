@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua's Programming Project</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/music.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/music.js" defer></script>
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+
+        <section id="logo">
+            <div style="text-align:center;">
+                <img src="/img/dragon.png" alt="Logo" style="max-width:80%; height:auto; filter: invert(1);">
+            </div>
+        </section>
+
+        <section id="music">
+            <h2 align="center">Alien Spaceship UFO by Daniel Simion</h2><br>
+            <div class="controls">
+                <button id="playPauseButton" title="Play the music">Play</button>
+            </div>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5" title="Adjust the volume">
+            <audio id="spaceMusic" src="/audio/space.wav" preload="auto"></audio>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+</body>
+</html>
